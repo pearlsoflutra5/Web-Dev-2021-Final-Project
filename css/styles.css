@@ -1,7 +1,20 @@
-body, header, main, footer, h1, h3, section, article {
+/*CSS Reset*/
+html, body {
     margin: 0;
     padding: 0;
     border: 0;
+    position: relative;
+}
+header, nav, nav li, main, ul,img, h1, h2, h3, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+main{
+  padding: 2%;
+  min-height: 700px;
 }
 
 .fa {
@@ -24,6 +37,56 @@ body, header, main, footer, h1, h3, section, article {
   color: white;
 }
 
-@media only screen and (min-width: 600px) {
-	
+nav, footer {
+  background-color: #18A558;
+  color: white;
+}
+nav li {
+  display: inline-block;
+  padding: 5px; 
+}
+nav a.nav-link, footer a{
+  color: white;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A3EBB1;
+ }
+
+/*Personalization snippets*/
+/**********************************************************************************************************/
+/*------Felise-------*/
+
+/*------Austin-------*/
+
+/*------Ethan-------*/
+
+/*------Kacie Rae-------*/
+
+
+
+
+/*Tablet+ Viewport*/
+@media only screen and (max-width: 600px) {
+
+  button, navbar-toggler {
+    color: white;
+  }
+
+/*Personalization snippets*/
+/*------Felise-------*/
+
+/*------Austin-------*/
+
+/*------Ethan-------*/
+
+/*------Kacie Rae-------*/	
+
+
 }

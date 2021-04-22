@@ -45,7 +45,7 @@ nav li {
   display: inline-block;
   padding: 5px; 
 }
-nav a.nav-link, footer a{
+nav a, footer a{
   color: white;
 
 }
@@ -55,7 +55,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover{
   color: #A3EBB1;
  }
 

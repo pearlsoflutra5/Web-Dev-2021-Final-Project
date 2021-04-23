@@ -12,6 +12,8 @@ Green
 
 
 /*CSS Reset*/
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -69,7 +71,7 @@ button {
 p {
   padding: 5px;
 }
-li.titlelist {
+li {
   margin-left: 5%;
 }
 
@@ -132,6 +134,10 @@ td a {
 /*------Ethan-------*/
 
 /*------Kacie Rae-------*/
+#heading {
+  text-align: center;
+  font-family: 'Chewy', Arial, cursive;
+}
 .left {
   text-align: left;
 }

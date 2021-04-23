@@ -54,6 +54,7 @@ img.language {
   display: block;
   margin: auto;
   text-align: center;
+  padding: 10px;
 }
 
 img.htmlbasic {
@@ -132,38 +133,59 @@ td a {
   text-align: center;
   color: black;
 }
-.rainbow h1 {
+.rainbow h1, .rainbow h2 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
+.rainbow button {
+  border: 2px black solid;
+  margin-bottom: 5px;
+}
 /*252, 3, 49*/
 .red{
-  background-color: rgba(252, 3, 49, .5) ;
+  background-color: rgba(252, 3, 49, .5) ; 
+}
+.red h1 {
   color: rgba(252, 3, 49, 1);
 }
 /*250, 118, 2*/
 .orange {
   background-color: rgba(250, 118, 2, .5) ;
+  
+}
+.orange h1 {
   color: rgba(250, 118, 2, 1);
 }
 /*252, 244, 3*/
 .yellow {
   background-color: rgba(252, 244, 3, .5);
+  
+}
+.yellow h1 {
   color: rgba(252, 244, 3, 1);
 }
 /*0, 217, 29*/
 .green {
   background-color: rgba(0, 217, 29, .5) ;
+  
+}
+.green h1 {
   color: rgba(0, 217, 29, 1);
 }
 /*0, 18, 217*/
 .blue{
   background-color: rgba(0, 18, 217, .5) ;
+  
+}
+.blue h1 {
   color: rgba(0, 18, 217, 1);
 }
 /*137, 0, 217*/
 .purple {
   background-color: rgba(137, 0, 217, .5) ;
+  
+}
+.purple h1 {
   color: rgba(137, 0, 217, 1);
 }
 

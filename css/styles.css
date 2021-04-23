@@ -1,3 +1,16 @@
+/*Kelly Green
+#18A558
+
+Neon Green
+#A3EBB1
+
+Blue Green
+#21B6A8
+
+Green
+#116530*/
+
+
 /*CSS Reset*/
 html, body {
     margin: 0;
@@ -9,6 +22,12 @@ header, nav, nav li, main, ul,img, h1, h2, h3, footer {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -29,7 +48,6 @@ nav li {
 }
 nav a, footer a{
   color: white;
-
 }
 
 a {
@@ -41,7 +59,9 @@ a:hover{
   color: #A3EBB1;
 }
 
-
+footer  {
+  text-align: center;
+}
 
 td {
   text-align: center;

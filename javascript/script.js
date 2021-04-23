@@ -1,8 +1,4 @@
-$(document).ready(
-	function redButton() { 
-        var col = document.getElementById("body");  
-        col.style.backgroundColor = red;
-      }
-    
- );
+$('button').on('click', function redButton() {
+    $('body').css('background', '#ccc');
+});
 

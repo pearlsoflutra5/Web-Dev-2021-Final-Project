@@ -56,6 +56,13 @@ img.language {
   text-align: center;
 }
 
+img.htmlbasic {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
 
 
 nav, footer {

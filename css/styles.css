@@ -35,6 +35,25 @@ main{
   padding: 2%;
   min-height: 700px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-columns: auto auto;
+}
+
+.grid-item-h1 {
+  text-align: center;
+  grid-column: 1 / span 2;
+}
+.grid-item-single {
+  grid-column: 1 / span 2;
+}
+img.language {
+  width: 49%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
 
 

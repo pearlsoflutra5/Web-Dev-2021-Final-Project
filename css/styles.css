@@ -82,8 +82,9 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover, a:active{
   color: #A3EBB1;
+  background-color: darkgreen;
 }
 
 footer  {

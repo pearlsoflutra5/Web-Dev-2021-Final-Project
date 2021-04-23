@@ -44,6 +44,8 @@ main{
 .grid-item-h1 {
   text-align: center;
   grid-column: 1 / span 2;
+  background-color: #18A558;
+  color: white;
 }
 .grid-item-single {
   grid-column: 1 / span 2;

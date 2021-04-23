@@ -50,17 +50,29 @@
         <div class="rainbow red">
            <h1>Colors</h1> 
            <p>You can use CSS to add background colors to elements or the entire page</p>
-           <h2>Background Colors test</h2>
-           <button class="red" onclick="redButton()" >Red</button>
-           <button class="orange">Orange</button>
+           <h1>Background Colors test</h2>
+            <p>Use these Buttons to change the color of the background!</p>
+           <button class="white" onclick="document.body.style.backgroundColor = 'white';">Original</button>
+           <button class="black" onclick="document.body.style.backgroundColor = 'black';">Black</button>
+            <button class="red" onclick="document.body.style.backgroundColor = 'red';">Red</button>
+           <button class="orange" onclick="document.body.style.backgroundColor = 'orange';">Orange</button>
+           <button class="yellow" onclick="document.body.style.backgroundColor = 'yellow';">Yellow</button>
+           <button class="green" onclick="document.body.style.backgroundColor = 'green';">Green</button>
+           <button class="blue" onclick="document.body.style.backgroundColor = 'blue';">Blue</button>
+           
         </div>
         <div class="rainbow yellow">
             <h1 >Tables</h1>
             <p>this is text</p>
         </div>
-        <div class="rainbow orange">
+        <div class="rainbow orange columns">
             <h1 >Columns</h1>
-            <p>this is text</p>
+            <p class="long left">When creating columns in css, it will most often look different for different screen types. If you are a desktop user it may have 3 columns, whereas a mobile user may only have 1 column.</p> 
+               <p>This is column 1 <br> It has some text in it.</p>
+               <p>This is column 2 <br>It has some text in it.</p>
+               <p>This is column 3 <br>It has some text in it.</p>
+            <p class="long left">Columns work best with text that is very equal so that it flows evenly down one column. Another possible use is in a newspaper article where it would normally be in columns anyway.</p>
+            
         </div>
         <div class="rainbow green">
              <h1 >Heading 1</h1>

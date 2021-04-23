@@ -17,25 +17,7 @@ main{
   min-height: 700px;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
+
 
 nav, footer {
   background-color: #18A558;
@@ -57,7 +39,33 @@ a {
 
 a:hover{
   color: #A3EBB1;
- }
+}
+
+
+
+td {
+  text-align: center;
+}
+td a {
+  margin: 2px;
+}
+ .fa {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15%;
+}
+.fa-facebook {
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+
+  background: #55ACEE;
+  color: white;
+}
 
 /*Personalization snippets*/
 /**********************************************************************************************************/

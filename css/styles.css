@@ -43,12 +43,21 @@ main{
 .grid-item-h1 {
   text-align: center;
   grid-column: 1 / span 2;
+  background-color: #18A558;
+  color: white;
 }
 .grid-item-single {
   grid-column: 1 / span 2;
 }
 img.language {
   width: 49%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+img.htmlbasic {
+  max-width: 100%;
   display: block;
   margin: auto;
   text-align: center;

@@ -1,3 +1,16 @@
+/*Kelly Green
+#18A558
+
+Neon Green
+#A3EBB1
+
+Blue Green
+#21B6A8
+
+Green
+#116530*/
+
+
 /*CSS Reset*/
 html, body {
     margin: 0;
@@ -11,10 +24,36 @@ header, nav, nav li, main, ul,img, h1, h2, h3, footer {
   border: 0;
 }
 
+.center {
+  display: block;
+  margin: auto;
+}
+
 
 main{
   padding: 2%;
   min-height: 700px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-columns: auto auto;
+}
+
+.grid-item-h1 {
+  text-align: center;
+  grid-column: 1 / span 2;
+  background-color: #18A558;
+  color: white;
+}
+.grid-item-single {
+  grid-column: 1 / span 2;
+}
+img.language {
+  width: 49%;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 
 
@@ -29,7 +68,6 @@ nav li {
 }
 nav a, footer a{
   color: white;
-
 }
 
 a {
@@ -41,7 +79,9 @@ a:hover{
   color: #A3EBB1;
 }
 
-
+footer  {
+  text-align: center;
+}
 
 td {
   text-align: center;
@@ -76,7 +116,46 @@ td a {
 /*------Ethan-------*/
 
 /*------Kacie Rae-------*/
-
+.rainbow {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.rainbow h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+/*252, 3, 49*/
+.red{
+  background-color: rgba(252, 3, 49, .5) ;
+  color: rgba(252, 3, 49, 1);
+}
+/*250, 118, 2*/
+.orange {
+  background-color: rgba(250, 118, 2, .5) ;
+  color: rgba(250, 118, 2, 1);
+}
+/*252, 244, 3*/
+.yellow {
+  background-color: rgba(252, 244, 3, .5);
+  color: rgba(252, 244, 3, 1);
+}
+/*0, 217, 29*/
+.green {
+  background-color: rgba(0, 217, 29, .5) ;
+  color: rgba(0, 217, 29, 1);
+}
+/*0, 18, 217*/
+.blue{
+  background-color: rgba(0, 18, 217, .5) ;
+  color: rgba(0, 18, 217, 1);
+}
+/*137, 0, 217*/
+.purple {
+  background-color: rgba(137, 0, 217, .5) ;
+  color: rgba(137, 0, 217, 1);
+}
 
 
 

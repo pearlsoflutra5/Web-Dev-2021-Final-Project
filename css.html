@@ -15,7 +15,7 @@
     
 </head>
 
-<body>
+<body id="body">
 
 <!--Use the nav area to add hyperlinks to other pages within the website-->
     <nav class="navbar navbar-expand-sm px-3">
@@ -48,19 +48,25 @@
     <main>
         <div class="rainbow red">
            <h1>Colors</h1> 
-           <p>this is text</p>
+           <p>You can use CSS to add background colors to elements or the entire page</p>
+           <h2>Background Colors test</h2>
+           <button class="red">Red</button>
         </div>
         <div class="rainbow yellow">
             <h1 >Tables</h1>
+            <p>this is text</p>
         </div>
         <div class="rainbow orange">
             <h1 >Columns</h1>
+            <p>this is text</p>
         </div>
         <div class="rainbow green">
              <h1 >Heading 1</h1>
+             <p>this is text</p>
         </div>
         <div class="rainbow blue">
             <h1 >Heading 1</h1>
+            <p>this is text</p>
         </div>
         <div class="">
             
@@ -78,8 +84,25 @@
 
 <!--Use the footer area to add webpage footer content-->
     <footer>
-        
+        <table align="center">
+            <tr>
+                <td><a href="KaciePortfolio.html" target="_blank">Kacie Rae Cox</a></td>                
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook fa-2x"></a><a href="https://twitter.com/" target="_blank" class="fa fa-twitter fa-2x"></a></td>
+                
+            </tr>
+        </table>
     </footer>
+
+
+    <script type="text/javascript">
+       
+        var colorIndex = 0; function redButton() { 
+        var col = document.getElementById("body");  
+        col.style.backgroundColor = red;
+
+    </script>
 </body>
 
 </html>

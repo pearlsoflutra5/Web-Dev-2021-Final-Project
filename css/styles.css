@@ -63,7 +63,9 @@ img.htmlbasic {
   text-align: center;
 }
 
-
+li.titlelist {
+  margin-left: 5%;
+}
 
 nav, footer {
   background-color: #18A558;

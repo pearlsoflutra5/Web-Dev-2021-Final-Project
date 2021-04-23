@@ -133,12 +133,13 @@ td a {
   text-align: center;
   color: black;
 }
-.rainbow h1 {
+.rainbow h1, .rainbow h2 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 .rainbow button {
   border: 2px black solid;
+  margin-bottom: 5px;
 }
 /*252, 3, 49*/
 .red{

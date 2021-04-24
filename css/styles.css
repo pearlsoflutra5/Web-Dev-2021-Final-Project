@@ -249,7 +249,9 @@ td a {
 
 /*Tablet+ Viewport*/
 @media only screen and (max-width: 600px) {
-
+body {
+  color: black;
+}
   button, navbar-toggler {
     color: white;
   }
@@ -265,6 +267,12 @@ td a {
 }
 .grid-item {
   grid-column: 1 / span 2;
+}
+.rainbow {
+  color: black;
+}
+.white {
+  color: black;
 }
 
 /*Personalization snippets*/

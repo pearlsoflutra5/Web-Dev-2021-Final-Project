@@ -39,6 +39,9 @@ main{
   padding: 2%;
   min-height: 700px;
 }
+p, ul {
+  font-size: 24px;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;

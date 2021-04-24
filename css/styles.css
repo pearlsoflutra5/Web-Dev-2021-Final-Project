@@ -162,6 +162,9 @@ td a {
 .kcPortfolio {
   font-family: 'Chewy', Arial, cursive;
 }
+.personalImg {
+  width: 30%;
+}
 .left {
   text-align: left;
 }
@@ -253,6 +256,10 @@ td a {
 }
 .video {
   height: 200px;
+}
+.personalImg {
+  width: 100%;
+  display: block;
 }
 
 /*Personalization snippets*/
